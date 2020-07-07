@@ -1,0 +1,32 @@
+.bye-button{
+    color: white;
+    background-color: black;
+    padding: 12px 26px;
+    border-radius: 10px;
+    border: none;
+}
+.container{
+    margin-bottom: 50px;
+}
+.see-all{
+    border: none;
+    background-color: white;
+    color: gold
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card img{
+        width: 70%;
+        margin: auto;
+        padding-top: 5%;
+    }
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    text-align: center;
+}
