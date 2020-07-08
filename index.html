@@ -26,7 +26,7 @@
                       <a class="nav-link" href="#product">Product</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#about us">About Us</a>
+                      <a class="nav-link" href="#categories">Categories</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#contact us">Contact Us</a>
@@ -41,14 +41,12 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <div class="row align-items-center">
-                          <div class="col-md-5">
+                          <div class="col-md-6">
                               <h1>MacBook Pro</h1>
                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga asperiores minima veritatis laborum laudantium obcaecati Lorem ipsum dolor sit amet consectetur.</p>
                               <button class="bye-button"> BUY NOW </button>
                           </div>
-                          <div class="col-md-1">
-                              <img src="images/bg-1.png" alt="">
-                          </div>
+                      
                           <div class="col-md-6">
                             <img src="images/product-1 (1).png" class="d-block w-100" alt="...">
                           </div>
@@ -57,14 +55,12 @@
                   </div>
                   <div class="carousel-item">
                       <div class="row align-items-center">
-                          <div class="col-md-5">
+                          <div class="col-md-6">
                               <h1>Sound Box</h1>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum et asperiores cumque aperiam iusto tempore Lorem ipsum dolor sit amet.</p>
                               <button class="bye-button"> BUY NOW </button>
                           </div>
-                          <div class="col-md-1">
-                              <img src="images/bg-1.png" alt="">
-                          </div>
+                         
                           <div class="col-md-6">
                             <img src="images/slider-1.png" class="d-block w-100" alt="...">
                           </div>
@@ -73,14 +69,12 @@
                   </div>
                   <div class="carousel-item">
                       <div class="row align-items-center">
-                          <div class="col-md-5">
+                          <div class="col-md-6">
                               <h1>JBL Sound Box</h1>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia repellat cupiditate ex expedita ipsa Lorem ipsum dolor sit amet.</p>
                               <button class="bye-button"> BUY NOW </button>
                           </div>
-                          <div class="col-md-1">
-                              <img src="images/bg-1.png" alt="">
-                          </div>
+                         
                           <div class="col-md-6">
                             <img src="images/slider-3.png" class="d-block w-100" alt="...">    
                           </div>
@@ -100,9 +94,11 @@
         </div>
 
         <div class="container product" id="product">
-            <h3>SmartPhone</h3>
-            <button class="see-all" id="product">See more</button>
-            <div class="card-deck">
+        <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><h3>SmartPhone</h3></div>
+            <div class="ml-auto p-2 bd-highlight"><button class="see-all" id="product">See all</button></div>
+          </div>
+             <div class="card-deck">
                 <div class="card">
                   <img src="images/phone-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -134,8 +130,10 @@
         </div>
         
         <div class="container" id="product">
-            <h3>Laptop</h3>
-            <button class="see-all" id="product">See more</button>
+            <div class="d-flex bd-highlight mb-3">
+                <div class="p-2 bd-highlight"><h3>Laptop</h3></div>
+                <div class="ml-auto p-2 bd-highlight"><button class="see-all" id="product">See all</button></div>
+              </div>
             <div class="card-deck">
                 <div class="card">
                   <img src="images/product-1.png" class="card-img-top" alt="...">
@@ -172,7 +170,32 @@
                 </div>
               </div>
 
+        </div>       
+        <div class="container categories" id="categories">
+            <h3 class="text-center cat-border">Categories</h3>
+            <div class="row mt-5m-5 algin-items-center text-center justify-content-around">
+              <div class="col-md-2 p-4 col-sm-4 algin-items-center cat-bag">
+                <img class="cat-images" src="images/bag.png" alt="">
+              </div>
+              <div class="col-md-2 col-sm-4 text-center">
+                <div class="row cat-parfium mb-5">
+                  <div class="col p-3">
+                    <img class="cat-images" src="images/perfume.png" alt="">
+                  </div>
+                </div>
+                <div class="row cat-shoes">
+                  <div class="col p-3">
+                    <img class="cat-images" src="images/shoe.png" alt=""> 
+                  </div>
+                </div>
+              </div>
+            
+            <div class="col-md-6 col-sm-12">
+              <img class="cat" src="images/pale-order.png" alt="">
+            </div>
+          </div>
         </div>
+            
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
